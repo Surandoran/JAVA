@@ -1,0 +1,58 @@
+정우균이 사과장수에게 사과를 구매한다
+
+Buyer Class
+//속성
++ Mymoney   : int
++ Applecnt  : int
+//기능
+-pay
+
+Saller Class
+
+/기능
+//속성
+Mymoney
+Applecnt
+//기능
+-Receive
+
+사과
+
+1) Buyer가 돈을 지불한다(돈을, 누구한테?)
+pay(int money, Seller seller)
+
+2) Seller가 돈을 받아 자기 주머니에 챙긴다
+자기 사과개수에서 받은 액수만큼 사과개수를 차감한다
+사과개수를 Buyer에게 리턴한다.
+
+3) Buyer에 사과개수에 받은 값을 누적한다.
+
+
+홍길동이 콜라를 구매한다
+
+Buyer Class
+//속성
++ Mymoney   : int
++ coke  : int
+//기능
+-pay
+
+Saller Class
+
+/기능
+//속성
+Mymoney
+coke
+//기능
+-Receive
+
+코크
+
+1) Buyer가 돈을 지불한다(돈을, 누구한테?)
+pay(int money, Seller seller)
+
+2) Seller가 돈을 받아 자기 주머니에 챙긴다
+자기 콜라에서 받은 액수만큼 콜라를 차감한다
+콜라를 Buyer에게 리턴한다.
+
+3) Buyer에 콜라에 받은 값을 누적한다.
