@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch22/C04UpcastingOverridding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch22/Casting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch22/UpCasting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch22/오버로딩과 오버라이딩의 차이.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch23/C01AbstractMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch23/MoonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch24/C01InterfaceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch24/C02InterfaceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/문제.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +29,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28CYsLrQgLdLe7ddMcBdnl2VxQp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,25 +49,29 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/TEMP1234/MemberWorkspace/JAVA",
-    "project.structure.last.edited": "라이브러리",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/새 폴더/workspace/JAVA/src/Ch25",
+    "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch25" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch22" />
       <recent name="C:\TEMP1234\MemberWorkspace\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.C03ArrayCopy">
-    <configuration name="C03ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch18.C03ArrayCopy" />
+  <component name="RunManager" selected="Application.C02InterfaceMain">
+    <configuration name="C01AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch23.C01AbstractMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch18.*" />
+          <option name="PATTERN" value="Ch23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05ArithChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch03.C05ArithChange" />
+    <configuration name="C01InterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch24.C01InterfaceMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch03.*" />
+          <option name="PATTERN" value="Ch24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +92,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test" />
+    <configuration name="C02InterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch24.C02InterfaceMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="Ch24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04UpcastingOverridding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch22.C04UpcastingOverridding" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch23.MoonMain" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,9 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.C03ArrayCopy" />
-        <item itemvalue="애플리케이션.C05ArithChange" />
-        <item itemvalue="애플리케이션.test" />
+        <item itemvalue="Application.C02InterfaceMain" />
+        <item itemvalue="Application.C01InterfaceMain" />
+        <item itemvalue="Application.MoonMain" />
+        <item itemvalue="Application.C01AbstractMain" />
+        <item itemvalue="Application.C04UpcastingOverridding" />
       </list>
     </recent_temporary>
   </component>
