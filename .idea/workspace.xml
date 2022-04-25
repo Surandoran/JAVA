@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Ch22/C04UpcastingOverridding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch22/Casting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch22/UpCasting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch22/오버로딩과 오버라이딩의 차이.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch23/C01AbstractMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch23/MoonMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch24/C01InterfaceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch24/C02InterfaceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/문제.java" afterDir="false" />
+    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-25">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/C02Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/C03Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/문제.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/문제.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +47,13 @@
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="inheritance" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch25" />
     </key>
@@ -65,13 +62,13 @@
       <recent name="C:\TEMP1234\MemberWorkspace\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C02InterfaceMain">
-    <configuration name="C01AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch23.C01AbstractMain" />
+  <component name="RunManager" selected="Application.C03Point">
+    <configuration name="C02Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.C02Converter" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch23.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01InterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch24.C01InterfaceMain" />
+    <configuration name="C03Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.C03Point" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch24.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02InterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch24.C02InterfaceMain" />
+    <configuration name="Converte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Converte" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch24.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04UpcastingOverridding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch22.C04UpcastingOverridding" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch22.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch23.MoonMain" />
+    <configuration name="Won2Dollar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Won2Dollar" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch23.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C02InterfaceMain" />
-        <item itemvalue="Application.C01InterfaceMain" />
-        <item itemvalue="Application.MoonMain" />
-        <item itemvalue="Application.C01AbstractMain" />
-        <item itemvalue="Application.C04UpcastingOverridding" />
+        <item itemvalue="Application.C03Point" />
+        <item itemvalue="Application.C02Converter" />
+        <item itemvalue="Application.Won2Dollar" />
+        <item itemvalue="Application.Converte" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650722360393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2022-04-25">
+      <created>1650855737335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650855737335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +177,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="2022-04-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-04-25" />
   </component>
 </project>

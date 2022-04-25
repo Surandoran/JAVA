@@ -166,7 +166,8 @@ package inheritance;
 //        (10,10)의 점입니다.
 //        (10,10)의 점입니다.
 //        (0,0)의 점입니다.
-//        [Hint] Point 클래스의 move()를 PositivePoint 클래스에서 오버라이딩하여 재작성하고 적절히 super.move()를 호출해야 한다. PositivePoint의 2 개의 생성자에서도 적절히 super() 생성자와 super.move()를 호출해야 한다.
+//        [Hint] Point 클래스의 move()를 PositivePoint 클래스에서 오버라이딩하여 재작성하고 적절히 super.move()를
+//        호출해야 한다. PositivePoint의 2 개의 생성자에서도 적절히 super() 생성자와 super.move()를 호출해야 한다.
 //
 //
 
