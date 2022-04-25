@@ -18,7 +18,7 @@ abstract class Converte {
         double val = sc.nextDouble();
         double res = convert(val);
         System.out.println("변환 결과 : " + res + getDestString() + " 입니다.");
-        sc.close();
+
     }
 
 }
@@ -75,13 +75,12 @@ public class C02Converter{
 
     public static void main(String[] args) {
 
-//        Won2Dollar toDollar = new Won2Dollar(1200);
-//
-//        toDollar.run();
+        Won2Dollar toDollar = new Won2Dollar(1200);
+
+        toDollar.run();
 
         Km2Mile toMile = new Km2Mile(1.6); // 1마일은 1.6km
         toMile.run();
-//        }
 //        Km을 mile로 바꿉니다.
 //        Km을 입력하세요>> 30
 //        변환 결과: 18.75mile입니다

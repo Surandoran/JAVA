@@ -6,10 +6,19 @@ class Point {
         this.x = x;
         this.y = y;
     }
-    public Point() {}
-    public int getX() { return x; }
-    public int getY() { return y; }
-    protected void move(int x, int y) { this.x =x; this.y = y;}
+    public Point() {
+
+    }
+    public int getX() {
+        return x;
+    }
+    public int getY() {
+        return y;
+    }
+    protected void move(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
 }
 
 class ColorPoint extends Point{
@@ -79,9 +88,11 @@ class PositivePoint extends Point {
             move(0, 0);
         }
     }
+
     PositivePoint(){
         super();
     }
+
     @Override
     public void move(int x, int y){
 
@@ -134,7 +145,7 @@ public class C03Point {
 //        cp.setColor("RED");
 //        String str = cp.toString();
 //        System.out.println(str + "입니다. ");
-//    }
+
 //        ColorPoint zeroPoint = new ColorPoint(); // (0,0) 위치의 BLACK 색 점
 //        zeroPoint.setXY(0,0);
 //        zeroPoint.setColor("BLACK");

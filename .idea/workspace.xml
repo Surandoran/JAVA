@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-25">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/C02Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/C03Point.java" afterDir="false" />
+    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-25(C1)">
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C01ObjectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C02ToStringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C02equalsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C03StringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC1/123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JDBC1/JDBC" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/문제.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/문제.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/C02Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/C02Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/C03Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/C03Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +62,44 @@
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch25" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\JDBC1" />
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch22" />
       <recent name="C:\TEMP1234\MemberWorkspace\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C03Point">
+  <component name="RunManager" selected="Application.C02Converter">
     <configuration name="C02Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.C02Converter" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02ToStringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch25.C02ToStringMain" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02equalsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch25.C02equalsMain" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,38 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Converte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Converte" />
+    <configuration name="C03StringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch25.C03StringMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Main" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Won2Dollar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Won2Dollar" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.*" />
+          <option name="PATTERN" value="Ch25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C03Point" />
         <item itemvalue="Application.C02Converter" />
-        <item itemvalue="Application.Won2Dollar" />
-        <item itemvalue="Application.Converte" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.C02equalsMain" />
+        <item itemvalue="Application.C03StringMain" />
+        <item itemvalue="Application.C02ToStringMain" />
+        <item itemvalue="Application.C03Point" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650855737335</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2022-04-25(C1)">
+      <created>1650868596010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650868596010</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +190,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="2022-04-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-04-25" />
+    <MESSAGE value="2022-04-25(C1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-04-25(C1)" />
   </component>
 </project>
