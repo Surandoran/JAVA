@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-25(C2)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C05equalsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C06EqualsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C07ClassExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C08StringBufferMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C09WrapperMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C10WrapperMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch26/C01NullPointerExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch26/C02ArthMethicExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch26/C03IndexOutOfBoundExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch26/C04ThrowMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch26/C05ThrowsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch27/C01GenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch27/C01SimpleGenericMain.java" afterDir="false" />
+    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-26(C1)&#10;예외처리와 던지기 그리고 투스트링...">
+      <change afterPath="$PROJECT_DIR$/src/Ch27/C02GenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch27/C03GenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch27/C04GenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch27/C05GenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch27/C06GenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/C01ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/C02ArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hash/hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hash/hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA_BOOK/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA_BOOK/test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/새 폴더/workspace/JAVA&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/새 폴더/workspace/JAVA",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="inheritance" />
@@ -75,9 +66,35 @@
       <recent name="C:\TEMP1234\MemberWorkspace\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C01SimpleGenericMain">
-    <configuration name="C01SimpleGenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch27.C01SimpleGenericMain" />
+  <component name="RunManager" selected="Application.C02ArrayList">
+    <configuration name="C01ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch28.C01ArrayList" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch28.C02ArrayList" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch27.C03GenericMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04ThrowMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch26.C04ThrowMain" />
+    <configuration name="C04GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch27.C04GenericMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch26.*" />
+          <option name="PATTERN" value="Ch27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,34 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05ThrowsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch26.C05ThrowsMain" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch26.C03IndexOutOfBoundExceptionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch26.C03IndexOutOfBoundExceptionMain" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch27.C01GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch27.C01GenericMain" />
+    <configuration name="C05GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch27.C05GenericMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C01SimpleGenericMain" />
-        <item itemvalue="Application.Ch27.C01GenericMain" />
-        <item itemvalue="Application.C05ThrowsMain" />
-        <item itemvalue="Application.C04ThrowMain" />
-        <item itemvalue="Application.Ch26.C03IndexOutOfBoundExceptionMain" />
+        <item itemvalue="Application.C02ArrayList" />
+        <item itemvalue="Application.C01ArrayList" />
+        <item itemvalue="Application.C05GenericMain" />
+        <item itemvalue="Application.C04GenericMain" />
+        <item itemvalue="Application.C03GenericMain" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650877623375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022-04-26(C1)&#10;예외처리와 던지기 그리고 투스트링...">
+      <created>1650944366712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650944366712</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +205,7 @@
     <MESSAGE value="2022-04-25" />
     <MESSAGE value="2022-04-25(C1)" />
     <MESSAGE value="2022-04-25(C2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-04-25(C2)" />
+    <MESSAGE value="2022-04-26(C1)&#10;예외처리와 던지기 그리고 투스트링..." />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-04-26(C1)&#10;예외처리와 던지기 그리고 투스트링..." />
   </component>
 </project>
