@@ -105,4 +105,5 @@ HashMap<Integer,String> map = new HashMap<Integer,String>(){{//초기값 지정
 //HashMap의 전체출력 시 반복문을 사용하지 않고 Iterator를 사용하여도 됩니다.
 //iterator로 Map안의 전체 요소를 출력하는 방법은 위와 같습니다.
     }
+
 }

@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-25(C1)">
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C01ObjectMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C02ToStringMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C02equalsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch25/C03StringMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC1/123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JDBC1/JDBC" afterDir="false" />
+    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-25(C2)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C05equalsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C06EqualsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C07ClassExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C08StringBufferMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C09WrapperMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch25/C10WrapperMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch26/C01NullPointerExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch26/C02ArthMethicExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch26/C03IndexOutOfBoundExceptionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch26/C04ThrowMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch26/C05ThrowsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch27/C01GenericMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch27/C01SimpleGenericMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/C02Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/C02Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/C03Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/C03Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hash/hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hash/hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_BOOK/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA_BOOK/test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +49,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/새 폴더/workspace/JAVA/src/Ch25",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/새 폴더/workspace/JAVA&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="inheritance" />
@@ -67,13 +75,13 @@
       <recent name="C:\TEMP1234\MemberWorkspace\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C02Converter">
-    <configuration name="C02Converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.C02Converter" />
+  <component name="RunManager" selected="Application.C01SimpleGenericMain">
+    <configuration name="C01SimpleGenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch27.C01SimpleGenericMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.*" />
+          <option name="PATTERN" value="Ch27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02ToStringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch25.C02ToStringMain" />
+    <configuration name="C04ThrowMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch26.C04ThrowMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch25.*" />
+          <option name="PATTERN" value="Ch26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02equalsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch25.C02equalsMain" />
+    <configuration name="C05ThrowsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch26.C05ThrowsMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch25.*" />
+          <option name="PATTERN" value="Ch26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.C03Point" />
+    <configuration name="Ch26.C03IndexOutOfBoundExceptionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch26.C03IndexOutOfBoundExceptionMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.*" />
+          <option name="PATTERN" value="Ch26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03StringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch25.C03StringMain" />
+    <configuration name="Ch27.C01GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch27.C01GenericMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch25.*" />
+          <option name="PATTERN" value="Ch27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C02Converter" />
-        <item itemvalue="Application.C02equalsMain" />
-        <item itemvalue="Application.C03StringMain" />
-        <item itemvalue="Application.C02ToStringMain" />
-        <item itemvalue="Application.C03Point" />
+        <item itemvalue="Application.C01SimpleGenericMain" />
+        <item itemvalue="Application.Ch27.C01GenericMain" />
+        <item itemvalue="Application.C05ThrowsMain" />
+        <item itemvalue="Application.C04ThrowMain" />
+        <item itemvalue="Application.Ch26.C03IndexOutOfBoundExceptionMain" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650868596010</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2022-04-25(C2)">
+      <created>1650877623375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650877623375</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +206,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="2022-04-25" />
     <MESSAGE value="2022-04-25(C1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-04-25(C1)" />
+    <MESSAGE value="2022-04-25(C2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-04-25(C2)" />
   </component>
 </project>
