@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 class Info{
 
-    void info(){
+    void menu(){
         System.out.println("=======M E N U =======");
         System.out.println("1 이름 등록");
         System.out.println("2 이름 조회");
@@ -21,12 +21,12 @@ public class C02ArrayList {
 
     public static void main(String[] args) {
 
-        Info info = new Info();
+        Info menu = new Info();
         ArrayList<String> arr = new ArrayList<>();
             int num = 0;
             Scanner sc = new Scanner(System.in);
             while(true) {
-                info.info();
+                menu.menu();
                 num = sc.nextInt();
                 switch(num)
             {
@@ -39,9 +39,9 @@ public class C02ArrayList {
                     System.out.print("이름을 입력 :");
                     for (String str : arr) {
                         if(sc.next().equals(str)){
-                            System.out.println("있다");
+                            System.out.println("***********있다***********");
                         }else {
-                            System.out.println("없다");
+                            System.out.println("-----------없다-----------");
                         }
                     }
                     //이름 입력받아서 조회(있다,없다로 조회) 이름이 있으면 "있다" 없으면 "없다"..
@@ -49,12 +49,12 @@ public class C02ArrayList {
                 case 3:
                     //이름 입력받아서 삭제.. 삭제되었으면 "삭제완료" 삭제할 이름 없으면 "삭제실패"
                     System.out.print("이름을 입력 : ");
-                    String remove = sc.next();
-                    if(arr.contains(remove)){
+                    String remove;
+                    if(arr.contains(remove = sc.next())){
                         arr.remove(remove);
-                        System.out.println("삭제완료");
+                        System.out.println("***********삭제완료***********");
                     }else {
-                        System.out.println("삭제실패");
+                        System.out.println("-----------삭제실패-----------");
                     }
                     break;
                 case 4:

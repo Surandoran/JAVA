@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-26(C1)&#10;예외처리와 던지기 그리고 투스트링...">
-      <change afterPath="$PROJECT_DIR$/src/Ch27/C02GenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch27/C03GenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch27/C04GenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch27/C05GenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch27/C06GenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/C01ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/C02ArrayList.java" afterDir="false" />
+    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-27(C1)&#10;ArrayList,Map">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/C03ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/C04Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/C05SetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/C06SetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/C07MapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/C08MapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/mom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch28/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch29/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch29/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch29/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch29/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch29/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch29/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch30/C01DBCONN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch30/C02INSERT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch30/C03UPDATE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch30/C04DELDTE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch30/C05SELECT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch30/C06SAMYANG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA_BOOK/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/build/build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/generated/generated.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/legacy/legacy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/core-api/core-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/core-impl/core-impl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/protocol-impl/protocol-impl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/user-api/user-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/user-impl/user-impl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch28/C01ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch28/C01ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch28/C02ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch28/C02ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RBuy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +74,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/새 폴더/workspace/JAVA",
-    "project.structure.last.edited": "프로젝트",
+    "last_opened_file_path": "C:/Users/Administrator/Downloads/어치/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29.jar",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.2632184",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
 }]]></component>
@@ -61,18 +94,19 @@
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch25" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src" />
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\JDBC1" />
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch22" />
       <recent name="C:\TEMP1234\MemberWorkspace\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C02ArrayList">
-    <configuration name="C01ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch28.C01ArrayList" />
+  <component name="RunManager" selected="Application.C06SAMYANG">
+    <configuration name="C02INSERT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch30.C02INSERT" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch28.*" />
+          <option name="PATTERN" value="Ch30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch28.C02ArrayList" />
+    <configuration name="C04DELDTE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch30.C04DELDTE" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch28.*" />
+          <option name="PATTERN" value="Ch30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch27.C03GenericMain" />
+    <configuration name="C05SAMYANG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch30.C05SAMYANG" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch27.*" />
+          <option name="PATTERN" value="Ch30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch27.C04GenericMain" />
+    <configuration name="C05SELECT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch30.C05SELECT" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch27.*" />
+          <option name="PATTERN" value="Ch30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch27.C05GenericMain" />
+    <configuration name="C06SAMYANG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch30.C06SAMYANG" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch27.*" />
+          <option name="PATTERN" value="Ch30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C02ArrayList" />
-        <item itemvalue="Application.C01ArrayList" />
-        <item itemvalue="Application.C05GenericMain" />
-        <item itemvalue="Application.C04GenericMain" />
-        <item itemvalue="Application.C03GenericMain" />
+        <item itemvalue="Application.C06SAMYANG" />
+        <item itemvalue="Application.C05SAMYANG" />
+        <item itemvalue="Application.C05SELECT" />
+        <item itemvalue="Application.C02INSERT" />
+        <item itemvalue="Application.C04DELDTE" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +235,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="2022-04-25" />
     <MESSAGE value="2022-04-25(C1)" />
