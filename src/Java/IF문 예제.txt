@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class Test1 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String id = "java";
+		String pw = "abc123";
+		
+		System.out.println("ID를 입력하세요 >> ");
+		String nowID = input.next(); //한 단어
+		
+		if(id.equals(nowID)) {
+			System.out.println("ID가 일치합니다");
+			System.out.println("PW를 입력하세요 >> ");
+			String nowPW = input.next();
+			
+			if (pw.equals(nowPW)) {
+				System.out.println("PW가 일치합니다.");
+				System.out.println("Login을 성공하셨습니다.!");
+			}
+			else {
+				System.out.println("PW가 일치하지 않습니다.");
+			}
+		}
+		
+		else {
+			System.out.println("ID가 일치하지 않습니다.");
+		}
+			
+		
+	}
+
+}

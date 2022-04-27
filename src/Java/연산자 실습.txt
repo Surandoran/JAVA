@@ -1,0 +1,28 @@
+		
+		1번
+		int num1 = 150;
+		int num2 = 240;
+		
+		int plus = num1 + num2;
+		int min = num1 - num2;
+		int gup = num1 * num2;
+		double nanu = (double)num1 / num2;
+		
+		System.out.println(num1 + "+" + num2 + "=" + plus);
+		System.out.println(num1 + "-" + num2 + "=" + min);
+		System.out.println(num1 + "*" + num2 + "=" + gup);
+		System.out.println(num1 + "/" + num2 + "=" + nanu);
+		
+		
+		2번
+		boolean result = (num2 * num2 * num2 / num1) >= 10;
+		
+		System.out.println("결과 : " + result);
+		
+		
+
+		3번
+		int x = 2;
+		int result = (7 * x * x* x) - (9 * x) - 2;
+		
+		System.out.println("f(2) = " + result);

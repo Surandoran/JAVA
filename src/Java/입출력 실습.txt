@@ -1,0 +1,40 @@
+/* 1번 직사각형의 가로 세로 값을 입력으로 받아서
+ * 직사각형의 둘레와 넓이를 구하는 프로그램을 구현
+ */
+			System.out.println("가로 길이를 입력하세요 >>> ");
+			int garo = input.nextInt();
+			System.out.println("세로 길이를 입력하세요 >>>");
+			int sero = input.nextInt();
+		
+			int dull = (garo + sero) * 2;
+			int result = garo * sero;
+			
+			System.out.println("직사각형의 둘레 = " + dull);
+			System.out.println("직사각형의 넓이 = " + result);
+
+
+/* 2번 숫자 2개를 입력받아 num1, num2 변수에 저장한뒤
+* num1 을 2bit 좌측으로 이동한 후  
+* num2와 더한 연산결과를 10진수로 출력
+ */
+			
+		System.out.println("num1 입력 : ");
+		int num1 = input.nextInt();
+		
+		System.out.println("num2 입력 : ");
+		int num2 = input.nextInt();
+		
+		int result = (num1 << 2) + num2;
+		System.out.println("결과 : " + result);
+
+
+
+/* 숫자를 입력받아서 해당숫자가 짝수이면 true
+ * 홀수이면 false를 출력하는 프로그램
+ */
+
+		System.out.println("숫자를 입력하세요 >>> ");
+		int number = input.nextInt();
+		
+		boolean result = (number % 2 == 0);
+		System.out.println(number + "는(은)" + result + "입니다.");

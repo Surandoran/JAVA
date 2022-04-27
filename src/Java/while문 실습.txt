@@ -1,0 +1,51 @@
+1번
+
+		int number = 1;
+		int count = 0;
+		
+		while(number < 100) {
+			//현재 number가 3의 배수인가
+			if(number % 3 == 0) {
+			
+			System.out.print(number + "\t");
+			count++; //출력할때마다 카운트 1증가
+			
+				if(count == 5); {
+				System.out.println();
+				count = 0;
+			}
+		}
+			
+			number++;
+		}
+
+	}
+
+}
+
+
+
+
+2번
+
+		int dan = 2;
+		int multiple = 1;
+		
+		while(multiple <= 9) {
+			while(dan <= 9) {
+			System.out.print(dan + "x" + multiple + "=" + (dan*multiple) + "\t");
+			dan++;
+		}
+		dan = 2;	
+		System.out.println();
+		
+		multiple++;
+	}
+	
+	
+	
+	
+	
+	
+	}
+}
