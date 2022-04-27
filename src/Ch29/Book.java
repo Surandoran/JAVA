@@ -10,6 +10,7 @@ public class Book implements Service {
     Map<String, Integer> map = new HashMap();
 
     //등록
+    @Override
     public void Insert() {
         System.out.print("도서 등록 : ");
         name = sc.next();
@@ -29,6 +30,7 @@ public class Book implements Service {
     }
 
     //수정
+    @Override
     public void Update() {
         System.out.println("1.도서이름변경");
         System.out.println("2.도서수량변경");
@@ -46,6 +48,7 @@ public class Book implements Service {
                     map.put(name,number);
                     System.out.println(name + "이" + number + "권 으로 등록되었습니다.");
                 }
+                break;
             case 2 :
                 System.out.print("도서 이름 입력 : ");
                 name = sc.next();
@@ -53,12 +56,13 @@ public class Book implements Service {
                     System.out.print("변경할 수량 입력 : ");
                     number = sc.nextInt();
                     int Newnumber = map.replace(name, number);
-                    System.out.println("도서이름 : " + name + "\n" +  "수량 : " + Newnumber);
+                    System.out.println("도서이름 : " + name + "\n" +  "수량 : " + number);
                 }
                 break;
         }
     }
     //조회
+    @Override
     public void inquiry(){
         Set<String> Set = map.keySet();
         for (String key : Set) {
@@ -68,7 +72,9 @@ public class Book implements Service {
     }
 
     //삭제
+    @Override
     public void Delete() {
-        System.out.println("도서 삭제");
+        map.remove(name);
+        System.out.println("삭제 목록 : " + map.toString());
     }
 }

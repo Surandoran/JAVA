@@ -1,47 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-27(C1)&#10;ArrayList,Map">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/C03ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/C04Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/C05SetMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/C06SetMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/C07MapMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/C08MapMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/mom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch28/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch29/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch29/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch29/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch29/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch29/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch29/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch30/C01DBCONN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch30/C02INSERT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch30/C03UPDATE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch30/C04DELDTE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch30/C05SELECT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch30/C06SAMYANG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA_BOOK/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/build/build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/demo/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/generated/generated.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/legacy/legacy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/core-api/core-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/core-impl/core-impl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/protocol-impl/protocol-impl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/user-api/user-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/main/user-impl/user-impl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mysql-connector-java-8.0.29/src/test/test.iml" afterDir="false" />
+    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-27(C1)&#10;ArrayList,Map&#10;DB Connection">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch28/C01ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch28/C01ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch28/C02ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch28/C02ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/RBuy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/RMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch29/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch29/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch29/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch29/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch29/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch29/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -79,8 +46,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "last_opened_file_path": "C:/Users/Administrator/Downloads/어치/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29.jar",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2632184",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
@@ -99,23 +69,16 @@
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch22" />
       <recent name="C:\TEMP1234\MemberWorkspace\JAVA\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Ch29" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.C06SAMYANG">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="C02INSERT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch30.C02INSERT" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04DELDTE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch30.C04DELDTE" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -166,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch29.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch29.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.C06SAMYANG" />
         <item itemvalue="Application.C05SAMYANG" />
         <item itemvalue="Application.C05SELECT" />
         <item itemvalue="Application.C02INSERT" />
-        <item itemvalue="Application.C04DELDTE" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650944366712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2022-04-27(C1)&#10;ArrayList,Map&#10;DB Connection">
+      <created>1651048129296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651048129296</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2022-04-27(C1)&#10;ArrayList,Map&#10;DB Connection">
+      <created>1651048135553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651048135553</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +231,7 @@
     <MESSAGE value="2022-04-25(C1)" />
     <MESSAGE value="2022-04-25(C2)" />
     <MESSAGE value="2022-04-26(C1)&#10;예외처리와 던지기 그리고 투스트링..." />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-04-26(C1)&#10;예외처리와 던지기 그리고 투스트링..." />
+    <MESSAGE value="2022-04-27(C1)&#10;ArrayList,Map&#10;DB Connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-04-27(C1)&#10;ArrayList,Map&#10;DB Connection" />
   </component>
 </project>

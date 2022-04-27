@@ -9,10 +9,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Map<String, Service> map = new HashMap();
+
         Book B = new Book();
         Person P = new Person();
         int num; //메뉴번호
-        int num1;
+
         map.put("도서관리서비스", new Book());
         map.put("회원관리서비스", new Person());
 
@@ -46,15 +47,18 @@ public class Main {
                     while (true) {
                         System.out.println("1. 회원등록");
                         System.out.println("2. 회원수정");
-                        System.out.println("3. 회원삭제");
+                        System.out.println("3. 회원조회");
+                        System.out.println("4. 회원삭제");
                         num = sc.nextInt();
                         Service sv = map.get("회원관리");
                         if(num == 1){
-                            sv.Insert();
+                            P.Insert();
                         }else if(num == 2){
-                            sv.Update();
+                            P.Update();
+                        }else if(num == 3){
+                            P.inquiry();
                         }else {
-                            sv.Delete();
+                            P.Delete();
                         }
                         break;
                     }
