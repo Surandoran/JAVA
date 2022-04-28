@@ -15,7 +15,7 @@ class Simple{
     int y;
 
     void ShowXY(){
-        System.out.println("x = " + x + ",Y = " +y);
+        System.out.println("x = " + x + ",Y = " + y);
     }
 }
 

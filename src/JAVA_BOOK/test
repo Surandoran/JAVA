@@ -1,2 +1,6 @@
+1. 컬렉션
+2. static-singleton
+3. database 연동
+4. string api
 싱글톤 어레이리스트
 JDBC 공부

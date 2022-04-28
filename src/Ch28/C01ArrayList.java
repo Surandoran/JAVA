@@ -5,8 +5,20 @@ import java.util.*;
 public class C01ArrayList {
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-
+        ArrayList<String> list = new ArrayList<>();
+        /*
+        list.add(자료형 값); (Integer,Double,String,char값을 넣어주면된다)
+        list.add(index, 자료형값); 원하는 index위치에 값을 넣는다
+        list.clear(); 배열요소들을 초기화
+        list.clone(); 배열을 복사
+        list.size(); 배열의 길이를 알수있음.
+        list.contains(자료형 값); 배열의 값이 존재하는지 알수있음
+        list.get(index); 배열의 index요소를 반환
+        list.indexOf(자료형 값); 해당 값이 존재하는 배열의 index위치를 반환
+        list.remove(index); 해당 index위치의 값을 배열에서 제거
+        list.set(index, 자료형 값); index위치의 값을 해당 값으로 변경
+        배열이름.sort(null); list를 오름차순으로 정렬
+         */
         //추가 0부터 시작~
         list.add("JAVA");
         list.add("JDBC");
