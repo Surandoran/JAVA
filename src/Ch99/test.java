@@ -6,7 +6,7 @@ class C01Seller{
     private int AppleCnt;
     int price;
     //생성자
-    C01Seller(int money,int cnt,int price){
+    public C01Seller(int money,int cnt,int price){
         MyMoney = money;        //판매자의 돈
         AppleCnt = cnt;         //판매자의 사과개수
         this.price = price;     //판매자의 사과가격
@@ -33,7 +33,7 @@ class C01Buyer{
     private int MyMoney;
     private int AppleCnt;
     //생성자
-    C01Buyer(int money,int cnt){
+    public C01Buyer(int money,int cnt){
         MyMoney = money;    //구매자의 돈
         AppleCnt = cnt;     //구매자의 사과개수
     }
