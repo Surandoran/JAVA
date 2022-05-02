@@ -1,26 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-28(C1)&#10;Swing,IO(입출력) 마무리">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_14_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch01/C01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch38/C01BufferedSubMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch38/C02BufferdReaderWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch38/C03OutputStreamWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch38/C04URLStreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch38/C05JSoupMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch39/C01ServerSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch39/C02ClientSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch39/C03ServerSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch39/IP" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/C03라이브러리활용하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/p1.java" afterDir="false" />
+    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-29(C1)&#10;Buffer Socket JSoup">
+      <change afterPath="$PROJECT_DIR$/src/Ch39/C04ClientSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch39/C04ServerSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch39/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch40/C01main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch40/C02MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch40/C02Worker1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch40/C02Worker2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch40/C03SwingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch40/C03Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch40/C03Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch41/ClientChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch41/ClientRecvThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch41/ClientSendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch41/ServerChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch41/ServerRecvThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch41/ServerSendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch42/ClientRecvThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch42/ClientUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch42/ServerRecvThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch42/ServerUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch43/ClientRecvThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch43/ClientUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch43/ServerBackground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch43/ServerRecvThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch43/ServerUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/반드시temp폴더에넣으세요/Client.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/반드시temp폴더에넣으세요/Client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/반드시temp폴더에넣으세요/Java (2).zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/반드시temp폴더에넣으세요/Java.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_14_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_14_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch99/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch99/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JAVA_BOOK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA_BOOK/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +61,11 @@
     <setting file="file://$PROJECT_DIR$/src/Ch31/C07SwingMain.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ch31/C08PractceMain.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ch32/C01SwingMain.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Ch42/ClientRecvThread.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Ch42/ClientUI.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Ch42/ServerRecvThread.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Ch42/ServerUI.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Ch43/ClientUI.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/JAVA_BOOK/C01Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/JAVA_BOOK/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -62,33 +80,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/새 폴더/workspace/JAVA&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2632184&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "ToolWindowBuild.ShowToolbar": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/과정평가형/workspace/JAVA/src",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2632184",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="inheritance" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\과정평가형\workspace\JAVA\src" />
+      <recent name="C:\Users\Administrator\Desktop\과정평가형\workspace\JAVA\src\Ch42" />
+      <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch39" />
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch31" />
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch25" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\과정평가형\workspace\JAVA\src\반드시temp폴더에넣으세요" />
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src" />
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\JDBC1" />
       <recent name="C:\Users\Administrator\Desktop\새 폴더\workspace\JAVA\src\Ch22" />
@@ -106,72 +128,7 @@
       <command value="1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.C02ClientSocket">
-    <configuration name="C01ServerSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch39.C01ServerSocket" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch39.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02ClientSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch39.C02ClientSocket" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch39.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03ServerSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch39.C03ServerSocket" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch39.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04URLStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch38.C04URLStreamMain" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch38.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C05JSoupMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch38.C05JSoupMain" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch38.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="C05SwingMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ch31.C05SwingMain" />
       <module name="JAVA" />
@@ -185,13 +142,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ch43.ClientUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch43.ClientUI" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch43.ServerUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch43.ServerUI" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch42.ClientUI" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAVA_BOOK.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAVA_BOOK.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch42.ServerUI" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C02ClientSocket" />
-        <item itemvalue="Application.C03ServerSocket" />
-        <item itemvalue="Application.C01ServerSocket" />
-        <item itemvalue="Application.C05JSoupMain" />
-        <item itemvalue="Application.C04URLStreamMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ch43.ClientUI" />
+        <item itemvalue="Application.Ch43.ServerUI" />
+        <item itemvalue="Application.ClientUI" />
+        <item itemvalue="Application.ServerUI" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651135897017</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2022-04-29(C1)&#10;Buffer Socket JSoup">
+      <created>1651222103485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651222103485</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,7 +320,8 @@
     <MESSAGE value="2022-04-27(C1)&#10;ArrayList,Map&#10;DB Connection" />
     <MESSAGE value="2022-04-27(C2)&#10;ArrayList,Map 마무리" />
     <MESSAGE value="2022-04-28(C1)&#10;Swing,IO(입출력) 마무리" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-04-28(C1)&#10;Swing,IO(입출력) 마무리" />
+    <MESSAGE value="2022-04-29(C1)&#10;Buffer Socket JSoup" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-04-29(C1)&#10;Buffer Socket JSoup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -299,6 +329,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ClassNotFoundException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.BindException" package="java.net" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,26 +1,26 @@
 package JAVA_BOOK;
 
-import javafx.print.Collation;
-
-import java.io.*;
-import java.util.*;
-import java.util.stream.Collectors;
-
-import static sun.java2d.cmm.ColorTransform.Out;
+import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
 
-		int[] arr = new int[9];
+		System.out.println(a * b * c);
+		String num = String.valueOf(a * b * c);
 
 		for (int i = 0; i < 9; i++) {
-			arr[i] = Integer.parseInt(br.readLine());
+			if(num.contains(String.valueOf(i))){
+				System.out.println(num.indexOf(String.valueOf(i)));
+			}else{
+				System.out.println(0);
+			}
 		}
-//
-//		Integer.parseInt(Collections.max(arr));
+
 
 	}
 }
