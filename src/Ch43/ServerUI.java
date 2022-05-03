@@ -1,15 +1,19 @@
 package Ch43;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.net.ServerSocket;
-import java.net.Socket;
-public class ServerUI extends JFrame{
+public class ServerUI extends JFrame implements ActionListener{
 	
 	JTextArea area;
 	JTextField txt;
 	ServerSocket server;
-	Socket client;
 	ServerBackground background;
+	 
+	TextField total;
+	JButton btn;
 	ServerUI(){
 		super("Chat Server");
 		
@@ -23,26 +27,53 @@ public class ServerUI extends JFrame{
 		JScrollPane scroll = new JScrollPane(area);
 		scroll.setBounds(10,10,550,550);
 		//txt.setBounds(10,320,260,30);
-
+		total = new TextField();
+		total.setBounds(690,10,80,30);
+		
+		btn= new JButton("인원확인");
+		btn.setBounds(580,10,100,30);
+		
+		
+		//이벤트 추가
+		btn.addActionListener(this);
 	
 		//패널에 추가
 		pan.add(txt);
 		pan.add(scroll);
+		pan.add(btn);
+		pan.add(total);
 		//프레임에 추가
 		add(pan);
 		
-		this.setBounds(100,100,600,600);
+		
+		this.setBounds(100,100,800,600);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
 		
 		
-		background = new ServerBackground(this,client);
+		background = new ServerBackground(this);
 		
 	
 	}
 	
 	
 	public static void main(String[] args) {
-		new ServerUI();
+//		new ServerUI().background.Setting();
+	}
+
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		System.out.println("버튼 클릭!");
+		if(e.getSource()==btn)		
+		{
+			//인원수 출력
+			
+			int total = background.ClientList.size();
+			System.out.println("접속수 : " + total);
+			String t = String.valueOf(total);
+			this.total.setText(t+" 명");
+			
+		}
 	}
 }

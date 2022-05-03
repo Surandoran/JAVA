@@ -30,6 +30,7 @@ public class C01 {
         System.out.print("1 문자열을 입력하세요 : ");
         String str1 = sc.nextLine();
         text[0] = str1;
+
         System.out.print("2 문자열을 입력하세요 : ");
         String str2 = sc.nextLine();
         text[1] = str2;

@@ -10,22 +10,22 @@ import java.util.Map;
 
 public class ServerBackground {
 	ServerSocket server;
-	Socket client;
 	ServerUI gui;
-	Map<String,DataOutputStream> ClientList;
-
+	Map<String,DataOutputStream> ClientList; //!!
+	Socket client;
 	
 	
-	ServerBackground(ServerUI ui,Socket client)
+	ServerBackground(ServerUI ui)
 	{
 		gui = ui;
-		this.client = client;
 		ClientList = new HashMap();
-		Collections.synchronizedMap(ClientList);
-	 
-
+		Collections.synchronizedMap(ClientList);//컬렉션 동기화 
 		
-	try {
+	}
+	
+	
+	public void Setting() {
+		try {
 			
 			server = new ServerSocket(5555);
 
@@ -34,6 +34,7 @@ public class ServerBackground {
 				client=server.accept();
 				gui.area.append(client.getInetAddress()+" 에서 접속중..\n");
 				
+				//수신 스레드 처리 
 				ServerRecvThread recv = new ServerRecvThread(client,this,gui);
 				Thread th = new Thread(recv);
 				th.start();
@@ -46,11 +47,10 @@ public class ServerBackground {
 			e.printStackTrace();
 		}
 	}
-	
-	
+
 	
 	public void addClient(String nick, DataOutputStream Dout) {
-		broadCast(nick  + " 님이 접속하셨습니다\n");
+		broadCast(nick  + " 님이 접속하셨습니다" +client.getInetAddress()+"\n");
 		ClientList.put(nick, Dout);
 		
 	}
@@ -63,13 +63,31 @@ public class ServerBackground {
 		String key="";
 		while(iter.hasNext()) {
 			key = iter.next();
-			try {
-				ClientList.get(key).writeUTF(msg);
+			try {			
+					ClientList.get(key).writeUTF(msg);
+					ClientList.get(key).flush();		
 			}catch(Exception e) {
 				e.printStackTrace();
 			}
 		}
-		
+	}
+	
+	public void broadCast(String nick, String msg) {
+		Iterator<String> iter = ClientList.keySet().iterator();
+		String key="";
+		while(iter.hasNext()) {
+			key = iter.next();
+			try {
+				if(!key.equals(nick))
+				{
+					ClientList.get(key).writeUTF(msg);
+					ClientList.get(key).flush();
+				}
+				
+			}catch(Exception e) {
+				e.printStackTrace();
+			}
+		}
 	}
 	
 

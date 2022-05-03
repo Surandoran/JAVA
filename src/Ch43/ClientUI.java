@@ -16,6 +16,7 @@ public class ClientUI extends JFrame implements KeyListener{
 	ServerSocket server;
 	Socket client;
 	String nick;
+
 	
 	ClientUI(String nick){
 		super("Chat Client");
@@ -31,6 +32,8 @@ public class ClientUI extends JFrame implements KeyListener{
 		JScrollPane scroll = new JScrollPane(area);
 		scroll.setBounds(10,10,260,300);
 		txt.setBounds(10,320,260,30);
+		
+
 
 		//이벤트 리스너 등록
 		txt.addKeyListener(this);
@@ -42,7 +45,7 @@ public class ClientUI extends JFrame implements KeyListener{
 		//프레임에 추가
 		add(pan);
 		
-		this.setBounds(100,100,300,400);
+		this.setBounds(100,100,600,400);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
 		

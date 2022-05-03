@@ -1,39 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-04-29(C1)&#10;Buffer Socket JSoup">
-      <change afterPath="$PROJECT_DIR$/src/Ch39/C04ClientSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch39/C04ServerSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch39/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch40/C01main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch40/C02MainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch40/C02Worker1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch40/C02Worker2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch40/C03SwingThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch40/C03Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch40/C03Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch41/ClientChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch41/ClientRecvThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch41/ClientSendThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch41/ServerChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch41/ServerRecvThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch41/ServerSendThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch42/ClientRecvThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch42/ClientUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch42/ServerRecvThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch42/ServerUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch43/ClientRecvThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch43/ClientUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch43/ServerBackground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch43/ServerRecvThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch43/ServerUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/반드시temp폴더에넣으세요/Client.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/반드시temp폴더에넣으세요/Client.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/반드시temp폴더에넣으세요/Java (2).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/반드시temp폴더에넣으세요/Java.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_14_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_14_3.xml" afterDir="false" />
+    <list default="true" id="e717dfd7-033c-4840-b34d-de7d13a89e8b" name="변경" comment="2022-05-02(C1)&#10;Socket">
+      <change afterPath="$PROJECT_DIR$/src/JAVA_BOOK/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA_BOOK/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA_BOOK/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA_BOOK/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA_BOOK/JAVA_BOOK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA_BOOK/복습할것" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA_BOOK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA_BOOK/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch01/C01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch01/C01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch43/ClientRecvThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch43/ClientRecvThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch43/ClientUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch43/ClientUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch43/ServerBackground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch43/ServerBackground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch43/ServerRecvThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch43/ServerRecvThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch43/ServerUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch43/ServerUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +46,6 @@
     <setting file="file://$PROJECT_DIR$/src/Ch42/ClientUI.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ch42/ServerRecvThread.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Ch42/ServerUI.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Ch43/ClientUI.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/JAVA_BOOK/C01Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/JAVA_BOOK/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -80,24 +60,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "ToolWindowBuild.ShowToolbar": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/과정평가형/workspace/JAVA/src",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2632184",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;ToolWindowBuild.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/과정평가형/workspace/JAVA/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2632184&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="inheritance" />
@@ -296,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651222103485</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2022-05-02(C1)&#10;Socket">
+      <created>1651481294456</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651481294456</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,7 +308,8 @@
     <MESSAGE value="2022-04-27(C2)&#10;ArrayList,Map 마무리" />
     <MESSAGE value="2022-04-28(C1)&#10;Swing,IO(입출력) 마무리" />
     <MESSAGE value="2022-04-29(C1)&#10;Buffer Socket JSoup" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-04-29(C1)&#10;Buffer Socket JSoup" />
+    <MESSAGE value="2022-05-02(C1)&#10;Socket" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-05-02(C1)&#10;Socket" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

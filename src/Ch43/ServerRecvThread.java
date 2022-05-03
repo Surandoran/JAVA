@@ -32,16 +32,15 @@ public class ServerRecvThread  implements Runnable{
 	
 	@Override
 	public void run() {
-		
 		try {
 			String recv;
 			while(true)
 			{
 				recv=Din.readUTF(); //클라이언트의 전달 메시지를 수신
 				if(recv!=null) {
-					recv = Din.readUTF();
-					background.broadCast(recv);
-					gui.area.append("["+nick+"] : " + recv+"\n");
+					background.broadCast(nick,recv);
+					gui.area.append(recv+"\n");
+					gui.area.setCaretPosition(gui.area.getDocument().getLength()); //스크롤 하단으로 내리기
 				}	
 			}
 			

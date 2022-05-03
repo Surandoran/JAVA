@@ -27,6 +27,7 @@ public class ClientRecvThread implements Runnable{
 					System.exit(-1);
 				}
 				gui.area.append(recv+"\n");
+				gui.area.setCaretPosition(gui.area.getDocument().getLength()); //스크롤 하단으로 내리기
 			}
 			
 		}catch(Exception e) {

@@ -1,0 +1,220 @@
+-----------------------------------------------
+객체일반
+-----------------------------------------------
+1) 객체&개념
+객체 -> 추상화 -> 인스턴스
+
+2) 객제 구조
+속성 / 기능(오버로딩) / 생성자(오버로딩)
+
+3) 클래스
+객체 생성 위한 자료형
+class Simple{
+//속성(데이터값 저장)
+//생성자(초기값 지정)
+//기능(Action~)
+}
+
+4) 객체 - 객체
+Ch99 참조.
+
+5) 정보은닉
+한정자
+public
+default
+protected
+private{
++Getter and Setter
+}
++캡슐화(정보은닉을 할 수 있다)
+
+6)this
+- 객체마다 가지는 내장형 참조변수
+- 각 객체의 위치정보를 담고있다.
+
+7) 객체 배열
+
+7-1) 일반자료형
+int[] arr = new int[5] = [5]는 5만큼의 배열을 가진 int(정수)형의 arr(변수명)을 만든다.
+arr[3] = 5;
+[][][][5][]
+7-2) 클래스자료형
+Person[] list = new Person[5] = 위와 같다.
+
+class Person{
+int age;
+int id;
+}
+list[0] = new Person();
+list[0].age = 10; x
+list[0].id = 20; x
+[1234][][][][]
+
+8) static -> SingleTon 패턴
+
+static : 공유멤버 지정
+SingleTon : 객체를 공유
+
+class simple{
+private static Simple instance = new Simple();
+private Simple();
+
+public simple getInstance(){
+    if(instance == null){
+    instance = new Simple();
+    }
+    return instance;
+}
+
+9) final
+
+-----------------------------------------------
+상속
+-----------------------------------------------
+부모(수퍼, 상위) -> 자식(서브,하위)
+                    extends
+상위생성자 호출 -> 하위생성자 호출
+
+NO캐스팅
+클래스 참조변수 = new 생성자()
+-> 참조변수를 만들기 위한 클래스 자료형과 객체 생성을 하기 위해 사용된 클래스 자료형이 동일한 경우
+
+UP캐스팅
+상위클래스 참조변수 = new 하위클래스생성자();
+
+1)상속관계의 모든 하위객체를 연결(함수 매개변수)
+(Object parameter)
+2)상위 클래스에서 선언한 매서드를 하위클래스가 재정의했을때 상위 클래스 참조변수로 재정의한 매서드에 접근가능? O
+3)하위 객체의 extends에 접근가능? X
+
+Downcasting
+
+Parent -< Son
+
+Parent ob = (Parent)new Son(); //Upcasting
+
+Son ob2 = (Son)ob; //downcasting(강제)
+
+4) 추상클래스
+   추상메서드를 하나이상 포함
+   일반메서드도 정의 가능
+   자체적으로 객체생성 X
+   상속관계의 하위클래스는 반드시 재정의 해야한다
+   (강제성)
+
+   참조변수로 사용이 될 경우 -> Upcasting이 되는거고 하위객체의 재정의된 함수에 접근가능하다!
+
+5) 인터페이스
+   모두 추상메서드
+   모두 public final static 멤버변수
+   메서드가 선언된경우 하위클래스는 강제 재정의
+
+-----------------------------------------------
+기타
+-----------------------------------------------
+1. API
+String aPI - concats,length,charAt....
+Wrapper
+StringBuffer
+Object
+toString() - 패키지명@클래스명.해시코드값
+hashCode() - JVM 객체 위치찾기위해 부여된 값
+equals(Object obj) //Upcasting - 객체간 비교를 위해 사용되는 함수
+
+Simple{
+    int x;
+    int y;
+    Simple(int x,int y){
+    this.x = x;
+    this.y = y;
+    }
+    //해시코드 재정의
+    //equals 재정의
+    public boolean equals(Object obj) object obj = ob2; //Upcasting{
+        if(obj instanceof Simple){
+            Simple down = (Simple)obj; //downcasting
+            this.x == down.x && this.y == down.y;
+        }
+        return false;
+    }
+}
+main(){
+    Simple ob1 = new Simple(10,20);
+    Simple ob2 = new Simple(10,20);
+    System.out.println(ob1.equasl(ob2));
+    //-> 참조변수 비교
+}
+
+2.예외처리(중요)
+
+3.제너릭(형태만 알고있으면됨)
+
+4.컬렉션(자료구조)(중요)
+List
+Set
+Map
+
+5.JDBC(중요 외부평가에 나옴)
+1) 클래스 드라이브 로드(다운로드 + 연결한 후 진행)
+2) 연결객체 생성 Connection
+3) SQL전송 객체 PreparedStatement, Statement
+4) SQL전송
+-executeQuery() - Select 전달 -> ResultSet
+-executeUpdate() - Update, insert, delete
+5) 결과처리
+-executeQuery() - ResultSet rs로 받아서 반복처리
+-executeUpdate() - int자료형으로 받아서 확인
+
+6.GUI(X)
+Frame
+Panel
+Component(button,Area,ScrollPane)
+이벤트처리(implements ActionListener, KeyListener)
+
+7.IO 입출력 스트림(중요)
+기본()
+문자
+-Reader
+-Writer
+바이트
+-InputStream
+-OutputStream
+보조
+-DataInputStream
+-DataOutputStream
+-BufferedReader
+-BufferedWriter
+-BufferedInputStream/OutputStream
+-InputStreamReader
+-OutputStreamWriter
+
+8.스레드(X)
+implements Runnable
+run(){} 재정의(일꾼이 하는일)
+Interrupt처리
+
+class Worker implements Runnable{
+    @Override
+    void run(){
+        try{
+            //일꾼이 하는일
+            Thread.sleep(500); <- 1/1000
+
+        }catch(Exception e){
+            e.printStackTrace();
+            }
+    }
+
+}
+
+Worker ob = new Worker();
+Thread th = new Thread(ob);
+th.start(); // 스레드 시작
+th.interrupt(); //스레드 중지
+
+9.소켓(X)
+
+SocketServer 전화기
+Socket 전화걸기(클라이언트),클라이언트연결정보 저장객체
+
+In/OutStream : 메세지교환
