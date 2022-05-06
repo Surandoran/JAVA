@@ -10,15 +10,19 @@ public class Main {
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 
+//		150
+//		266
+//		427
+
 		System.out.println(a * b * c);
 		String num = String.valueOf(a * b * c);
 
-		for (int i = 0; i < 9; i++) {
-			if(num.contains(String.valueOf(i))){
-				System.out.println(num.indexOf(String.valueOf(i)));
-			}else{
-				System.out.println(0);
-			}
+		for (int i = 0; i < 10; i++) {
+			int count = 0;
+			char ch;
+//			if(num.indexOf(i) == ch){
+//				System.out.println(i + "의 갯수 : " + num.indexOf(String.valueOf(i)));
+//			}
 		}
 
 
