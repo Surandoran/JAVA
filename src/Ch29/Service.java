@@ -7,6 +7,7 @@ public interface Service {
     Map<String, String> map = new HashMap();
 
     //등록
+
     void Insert();
     //수정
     void Update();

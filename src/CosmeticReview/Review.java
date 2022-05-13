@@ -1,4 +1,4 @@
 package CosmeticReview;
-
-public class Review implements Service{
-}
+//
+//public class Review implements Service{
+//}
